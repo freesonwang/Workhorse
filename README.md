@@ -1,5 +1,4 @@
-Workhorse 
----------
+# Workhorse 
 
 ## What is Workhorse?
 
