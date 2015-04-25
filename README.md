@@ -38,7 +38,7 @@ Thus, the result is quick aliasing of little snippets of shell code. It saves yo
 
 It is currently still in development. To use it, alias the phrase 'work_on' to where the workhorse script is located.
 
-	alias work_on="source \"~/.workhorse/workhorse.zsh\""
+	alias work_on="source \"~/.workhorse/main.zsh\""
 
 You can choose where to store your tasks with
 
