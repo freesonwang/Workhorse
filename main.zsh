@@ -28,7 +28,7 @@ if [[ -n $1 ]] then
 
 	# Connect up the library and do the final aliasing
 	WORKHORSE_LIBRARY="$this_dir/library"
-	alias workhorse="source \"$WORKHORSE_TASK_SCRIPT_PATH\""
+	alias workhorse="source \"$this_dir/entry.zsh\""
 	echo "Task directory at '$WORKHORSE_TASK_DIR'"
 	echo "Workhorse set to '$WORKHORSE_TASK_NAME'!"
 else
